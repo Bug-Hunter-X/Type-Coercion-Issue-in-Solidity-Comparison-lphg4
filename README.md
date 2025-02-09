@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Solidity related to type coercion during comparisons.  The `doSomething` function exhibits unexpected behavior when comparing a number and a string using the loose equality operator (==).  The solution showcases how to use strict equality (===) to prevent type coercion and ensure the function behaves as intended.
